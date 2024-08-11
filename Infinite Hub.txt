@@ -9,7 +9,7 @@ local Window = Fluent:CreateWindow({
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
-    MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
+    MinimizeKey = Enum.KeyCode.F15
 })
 local Tabs = {
     Lnin = Window:AddTab({ Title = "Info Hub, Icon = "home" }),
