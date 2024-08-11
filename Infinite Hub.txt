@@ -12,9 +12,7 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.F15
 })
 local Tabs = {
-    Lnin = Window:AddTab({ Title = "Info Hub, Icon = "home" }),
     Main = Window:AddTab({ Title = "Main Farm", Icon = "home" }),
-    Cc = Window:AddTab({ Title = "Sub Farmning, Icon = "home" }),
     Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
     Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
